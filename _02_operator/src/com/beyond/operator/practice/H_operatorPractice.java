@@ -81,19 +81,7 @@ public class H_operatorPractice {
      *   3 + 4 = 7
      */
     public void practice4() {
-        int num1;
-        int num2;
-        int sum;
-        char ch = '\u0000';
-        String result = "잘못 입력했습니다.";
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("첫 번째 수 > ");
-        num1 = scanner.nextInt();
-        System.out.println("두 번째 수 > ");
-        num2 = scanner.nextInt();
-        System.out.println("연산자 입력(+ 또는 -) > ");
-        ch = scanner.next().charAt(0);
     }
 
     /*
