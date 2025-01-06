@@ -81,7 +81,28 @@ public class H_operatorPractice {
      *   3 + 4 = 7
      */
     public void practice4() {
+        int num1 = 0;
+        int num2 = 0;
+        String result = "";
+        char operator = '\u0000';
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("첫 번째 정수 > ");
+        num1 = scanner.nextInt();
+
+        System.out.print("두 번째 정수 > ");
+        num2 = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.print("연산자 입력(+ 또는 -) > ");
+        operator = scanner.nextLine().charAt(0);
+
+        result = (operator == '+') ? String.format("%d %c %d = %d", num1, operator, num2, (num1 + num2))
+                : (operator == '-') ? String.format("%d %c %d = %d", num1, operator, num2, (num1 - num2))
+                : "잘못 입력했습니다.";
+
+        System.out.println(result);
     }
 
     /*

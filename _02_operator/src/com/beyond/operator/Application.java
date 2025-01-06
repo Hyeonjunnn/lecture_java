@@ -35,7 +35,7 @@ public class Application {
         // operatorPractice.practice1();
         // operatorPractice.practice2();
         // operatorPractice.practice3();
-        // operatorPractice.practice4();
+        operatorPractice.practice4();
         // operatorPractice.practice5();
         // operatorPractice.practice6();
         // operatorPractice.practice7();
