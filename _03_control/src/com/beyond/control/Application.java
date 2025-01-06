@@ -4,6 +4,7 @@ import com.beyond.control.practice.A_if;
 import com.beyond.control.practice.B_switch;
 import com.beyond.control.practice.C_for;
 import com.beyond.control.practice.D_while;
+import com.beyond.control.practice.E_branch;
 
 public class Application {
     public static void main(String[] args) {
@@ -26,7 +27,12 @@ public class Application {
 
         D_while d_while = new D_while();
         // d_while.method1();
-        d_while.method2();
+        // d_while.method2();
+
+        E_branch e_branch = new E_branch();
+        // e_branch.method1();
+        e_branch.method2();
+
     }
 
 }
