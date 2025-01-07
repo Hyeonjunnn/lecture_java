@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/_02_operator/_02_operator.iml" filepath="$PROJECT_DIR$/_02_operator/_02_operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03_control/_03_control.iml" filepath="$PROJECT_DIR$/_03_control/_03_control.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04_array/_04_array.iml" filepath="$PROJECT_DIR$/_04_array/_04_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_enumeration/_05_enumeration.iml" filepath="$PROJECT_DIR$/_05_enumeration/_05_enumeration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lecture_java.iml" filepath="$PROJECT_DIR$/.idea/lecture_java.iml" />
     </modules>
   </component>
