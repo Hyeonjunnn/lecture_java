@@ -5,6 +5,7 @@ import com.beyond.control.practice.B_switch;
 import com.beyond.control.practice.C_for;
 import com.beyond.control.practice.D_while;
 import com.beyond.control.practice.E_branch;
+import com.beyond.control.practice.F_loopPractice;
 
 public class Application {
     public static void main(String[] args) {
@@ -31,8 +32,15 @@ public class Application {
 
         E_branch e_branch = new E_branch();
         // e_branch.method1();
-        e_branch.method2();
+        // e_branch.method2();
 
+        F_loopPractice f_loopPractice = new F_loopPractice();
+        // f_loopPractice.practice1();
+        // f_loopPractice.practice2();
+        // f_loopPractice.practice3();
+        // f_loopPractice.practice4();
+        // f_loopPractice.practice5();
+        f_loopPractice.practice6();
     }
 
 }
