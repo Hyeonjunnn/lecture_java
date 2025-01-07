@@ -1,6 +1,5 @@
 package com.beyond.control.practice;
 
-import javax.swing.text.Style;
 import java.util.Scanner;
 
 public class F_loopPractice {
