@@ -11,10 +11,10 @@ public class Application {
         Week today = Week.FRIDAY;
 
         // 열거 상수에서 제공하는 메소드
-        System.out.println(today.name());
-        System.out.println(today.ordinal());
-        System.out.println(today.equals(Week.MONDAY));
-        System.out.println(today.compareTo(Week.MONDAY));
+        System.out.println(today.name());                   // FRIDAY   -- Week today = Week.FRIDAY; 기준
+        System.out.println(today.ordinal());                // 4        -- Week today = Week.FRIDAY; 기준
+        System.out.println(today.equals(Week.MONDAY));      // false    -- Week today = Week.FRIDAY; 기준
+        System.out.println(today.compareTo(Week.MONDAY));   // 4        -- Week today = Week.FRIDAY; 기준
         
         // 열거 타입에서 기본적으로 제공하는 정적 메소드
 
@@ -25,7 +25,13 @@ public class Application {
         // Week[] values = Week.values();
         // System.out.println(Arrays.toString(values));
         System.out.println(Arrays.toString(Week.values())); // 인텔리제이 shortcut [ctrl + alt + n] : 변수 인라인화
+        System.out.println();
 
+        // 열거 타입에 속성 추가 후 확인
+        System.out.println(today.getName());
+        System.out.println(today.getShortName());
+        System.out.println(today.getValue());
 
     }
+
 }
