@@ -2,6 +2,7 @@ package com.beyond.staticMember;
 
 import com.beyond.staticMember.practice.A_staticField;
 import com.beyond.staticMember.practice.B_staticMethod;
+import com.beyond.staticMember.practice.C_staticFinalField;
 
 public class Application {
     public static void main(String[] args) {
@@ -51,6 +52,24 @@ public class Application {
         System.out.println(B_staticMethod.method4(4, 5, 20, 40));
         System.out.println();
 
+        // final 필드 테스트
+        C_staticFinalField c_staticFinalField1 = new C_staticFinalField("남자");
+        C_staticFinalField c_staticFinalField2 = new C_staticFinalField("여자");
+
+        System.out.println(c_staticFinalField1.getGender());
+        System.out.println(c_staticFinalField2.getGender());
+        System.out.println();
+        
+        // 상수 필드 테스트
+        System.out.println(C_staticFinalField.MAX_LEVEL);
+        System.out.println(Math.PI);
+        System.out.printf("Byte의 표현 범위는 %d ~ %d 입니다.\n", Byte.MIN_VALUE, Byte.MAX_VALUE);
+        System.out.printf("Integer의 표현 범위는 %d ~ %d 입니다.\n", Integer.MIN_VALUE, Integer.MAX_VALUE);
+        System.out.printf("Float의 표현 범위는 %f ~ %f 입니다.\n", Float.MIN_VALUE, Float.MAX_VALUE);
+        System.out.printf("Char의 표현 범위는 %d ~ %d 입니다.\n", (int) Character.MIN_VALUE, (int) Character.MAX_VALUE);
+        System.out.println();
+
+        // final 키워드로 인해서 값을 변경할 수 없다.
     }
 
 }
