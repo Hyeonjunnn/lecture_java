@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_00_practice/_00_practice.iml" filepath="$PROJECT_DIR$/_00_practice/_00_practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/_01_variable/_01_variable.iml" filepath="$PROJECT_DIR$/_01_variable/_01_variable.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02_operator/_02_operator.iml" filepath="$PROJECT_DIR$/_02_operator/_02_operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03_control/_03_control.iml" filepath="$PROJECT_DIR$/_03_control/_03_control.iml" />
