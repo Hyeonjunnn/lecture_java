@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/_21_file/_21_file.iml" filepath="$PROJECT_DIR$/_21_file/_21_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/_22_fileIO/_22_fileIO.iml" filepath="$PROJECT_DIR$/_22_fileIO/_22_fileIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/_23_assistStream/_23_assistStream.iml" filepath="$PROJECT_DIR$/_23_assistStream/_23_assistStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_24_thread/_24_thread.iml" filepath="$PROJECT_DIR$/_24_thread/_24_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lecture_java.iml" filepath="$PROJECT_DIR$/.idea/lecture_java.iml" />
     </modules>
   </component>
