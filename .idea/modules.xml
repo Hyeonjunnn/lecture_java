@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/_24_thread/_24_thread.iml" filepath="$PROJECT_DIR$/_24_thread/_24_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/_25_threadControl/_25_threadControl.iml" filepath="$PROJECT_DIR$/_25_threadControl/_25_threadControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/_26_lambda/_26_lambda.iml" filepath="$PROJECT_DIR$/_26_lambda/_26_lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_27_streamAPI/_27_streamAPI.iml" filepath="$PROJECT_DIR$/_27_streamAPI/_27_streamAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lecture_java.iml" filepath="$PROJECT_DIR$/.idea/lecture_java.iml" />
     </modules>
   </component>
